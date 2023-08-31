@@ -173,7 +173,7 @@ const HomePage = () => {
             <ButtonLink
               className="mt-8 mx-auto lg:mx-0"
               linkText={t('trade-now')}
-              path="https://app.mango.markets"
+              path="https://app.wikicious.com"
               size="large"
             />
           </div>
@@ -266,7 +266,7 @@ const HomePage = () => {
               </div>
               <ButtonLink
                 className="mx-auto mt-10"
-                path="https://app.mango.markets/"
+                path="https://app.wikicious.com/"
                 linkText={t('home:swap-now')}
                 size="large"
               />
@@ -306,7 +306,7 @@ const HomePage = () => {
                 <p className="intro-p">{t('home:leverage-trade-desc')}</p>
                 <ButtonLink
                   className="mt-10"
-                  path="https://app.mango.markets/"
+                  path="https://app.wikicious.com/"
                   linkText="Start Trading"
                   size="large"
                 />
@@ -319,7 +319,7 @@ const HomePage = () => {
                 <div className="flex flex-row flex-wrap items-center mt-4">
                   <ButtonLink
                     className="mr-8 mt-6"
-                    path="https://docs.mango.markets/"
+                    path="https://docs.wikicious.com/"
                     linkText={t('learn-more')}
                     size="large"
                   />
@@ -350,7 +350,7 @@ const HomePage = () => {
                 <p className="intro-p">{t('home:token-listings-desc')}</p>
                 <ButtonLink
                   className="mt-10"
-                  path="https://app.mango.markets/governance/list"
+                  path="https://app.wikicious.com/governance/list"
                   linkText={t('home:list-token')}
                   size="large"
                 />
@@ -362,7 +362,7 @@ const HomePage = () => {
                 <p className="intro-p">{t('home:borrow-desc')}</p>
                 <ButtonLink
                   className="mt-10"
-                  path="https://app.mango.markets/"
+                  path="https://app.wikicious.com/"
                   linkText={t('home:get-started')}
                   size="large"
                 />
@@ -401,7 +401,7 @@ const HomePage = () => {
             </p>
             <ButtonLink
               className="mx-auto mt-10"
-              path="https://github.com/blockworks-foundation"
+              path="https://github.com/wikicious"
               linkText={t('home:explore-the-code')}
               size="large"
             />

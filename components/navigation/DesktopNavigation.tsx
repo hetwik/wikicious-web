@@ -37,7 +37,7 @@ const DesktopNavigation = () => {
       {/* <NavigationItem title={t('navigation:products')}>
         <NavigationItemPanel>
           <NavigationItemLink
-            path="https://app.mango.markets"
+            path="https://app.wikicious.com"
             isExternal
             title={t('navigation:mango-v4')}
           />
@@ -50,27 +50,27 @@ const DesktopNavigation = () => {
       <NavigationItem title={t('navigation:developers')}>
         <NavigationItemPanel>
           <NavigationItemLink
-            path="https://docs.mango.markets"
+            path="https://docs.wikicious.com"
             isExternal
             title={t('navigation:docs')}
           />
           <NavigationItemLink
-            path="https://github.com/blockworks-foundation"
+            path="https://github.com/wikicious"
             isExternal
             title={t('navigation:github')}
           />
           <NavigationItemLink
-            path="https://github.com/blockworks-foundation/mango-v4/tree/dev/ts/client/scripts/mm"
+            path="https://github.com/hetwik/wikicious/tree/dev/ts/client/scripts/mm"
             isExternal
             title={t('navigation:market-maker')}
           />
           <NavigationItemLink
-            path="https://github.com/blockworks-foundation"
+            path="https://github.com/wikicious"
             isExternal
             title={t('navigation:liquidator')}
           />
           <NavigationItemLink
-            path="https://trello.com/b/tIj7K3FD/mango-development"
+            path="https://trello.com/w/wikicious"
             isExternal
             title={t('navigation:contribute')}
           />
@@ -79,12 +79,12 @@ const DesktopNavigation = () => {
       <NavigationItem title={t('navigation:governance')}>
         <NavigationItemPanel>
           <NavigationItemLink
-            path="https://dao.mango.markets"
+            path="https://dao.wikicious.com"
             isExternal
             title={t('navigation:vote')}
           />
           <NavigationItemLink
-            path="https://forum.mango.markets"
+            path="https://forum.wikicious.com"
             isExternal
             title={t('navigation:forum')}
           />
@@ -102,7 +102,7 @@ const DesktopNavigation = () => {
       <div className="flex items-center space-x-6">
         <a
           className="text-th-fgd-4 hover:text-th-fgd-1"
-          href="https://twitter.com/mangomarkets"
+          href="https://twitter.com/wikiciousmarket"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -110,14 +110,14 @@ const DesktopNavigation = () => {
         </a>
         <a
           className="text-th-fgd-4 hover:text-th-fgd-1"
-          href="https://discord.gg/2uwjsBc5yw"
+          href="https://discord.gg/qGkaRU4fAA"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Discord className="h-5 w-5" />
         </a>
       </div>
-      <ButtonLink linkText="Launch App" path="https://app.mango.markets" />
+      <ButtonLink linkText="Launch App" path="https://app.wikicious.com" />
     </div>
   )
 }

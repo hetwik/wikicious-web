@@ -31,7 +31,7 @@ const Footer = () => {
             <div className="flex space-x-3">
               <a
                 className="text-th-fgd-4 opacity-60 text-sm whitespace-nowrap"
-                href="https://docs.mango.markets/legal/terms-of-use"
+                href="https://docs.wikicious.com/legal/terms-of-use"
                 rel="noopener noreferrer"
               >
                 {t('footer:terms-of-service')}
@@ -58,7 +58,7 @@ const Footer = () => {
             </FooterLinkColumn> */}
             {/* <FooterLinkColumn title={t('navigation:products')}>
               <FooterLink
-                path="https://app.mango.markets"
+                path="https://app.wikicious.com"
                 isExternal
                 title={t('navigation:mango-v4')}
               />
@@ -69,39 +69,39 @@ const Footer = () => {
             </FooterLinkColumn> */}
             <FooterLinkColumn title={t('navigation:developers')}>
               <FooterLink
-                path="https://docs.mango.markets"
+                path="https://docs.wikicious.com"
                 isExternal
                 title={t('navigation:docs')}
               />
               <FooterLink
-                path="https://github.com/blockworks-foundation"
+                path="https://github.com/wikicious"
                 isExternal
                 title={t('navigation:github')}
               />
               <FooterLink
-                path="https://github.com/blockworks-foundation/mango-v4/tree/dev/ts/client/scripts/mm"
+                path="https://github.com/hetwik/wikicious/tree/dev/ts/client/scripts/mm"
                 isExternal
                 title={t('navigation:market-maker')}
               />
               <FooterLink
-                path="https://github.com/blockworks-foundation"
+                path="https://github.com/wikicious"
                 isExternal
                 title={t('navigation:liquidator')}
               />
               <FooterLink
-                path="https://trello.com/b/tIj7K3FD/mango-development"
+                path="https://trello.com/w/wikicious"
                 isExternal
                 title={t('navigation:contribute')}
               />
             </FooterLinkColumn>
             <FooterLinkColumn title={t('navigation:governance')}>
               <FooterLink
-                path="https://dao.mango.markets"
+                path="https://dao.wikicious.com"
                 isExternal
                 title={t('navigation:vote')}
               />
               <FooterLink
-                path="https://forum.mango.markets"
+                path="https://forum.wikicious.com"
                 isExternal
                 title={t('navigation:forum')}
               />
@@ -109,13 +109,13 @@ const Footer = () => {
             <FooterLinkColumn title={t('navigation:social')}>
               <FooterLink
                 icon={<Twitter className="h-4 w-4 mr-2" />}
-                path="https://twitter.com/mangomarkets"
+                path="https://twitter.com/wikiciousmarket"
                 isExternal
                 title={t('navigation:twitter')}
               />
               <FooterLink
                 icon={<Discord className="h-4 w-4 mr-2" />}
-                path="https://discord.gg/2uwjsBc5yw"
+                path="https://discord.gg/qGkaRU4fAA"
                 isExternal
                 title={t('navigation:discord')}
               />

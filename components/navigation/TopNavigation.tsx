@@ -11,10 +11,10 @@ const TopNavigation = () => {
             <img
               className="h-10 w-10 flex-shrink-0"
               src="/logos/logo-mark.svg"
-              alt="Mango"
+              alt="wikicious"
             />
             <span className="hidden md:block ml-2 font-display text-2xl text-th-fgd-1">
-              Mango
+              wikicious
             </span>
           </div>
         </Link>

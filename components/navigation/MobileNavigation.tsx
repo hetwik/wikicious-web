@@ -74,7 +74,7 @@ const MenuPanel = ({
           {/* <div>
             <h4 className="px-4 mb-2">{t('navigation:products')}</h4>
             <NavigationItemLink
-              path="https://app.mango.markets"
+              path="https://app.wikicious.com"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:mango-v4')}
@@ -88,31 +88,31 @@ const MenuPanel = ({
           <div>
             <h4 className="px-4 mb-2">{t('navigation:developers')}</h4>
             <NavigationItemLink
-              path="https://docs.mango.markets"
+              path="https://docs.wikicious.com"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:docs')}
             />
             <NavigationItemLink
-              path="https://github.com/blockworks-foundation"
+              path="https://github.com/wikicious"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:github')}
             />
             <NavigationItemLink
-              path="https://github.com/blockworks-foundation/mango-v4/tree/dev/ts/client/scripts/mm"
+              path="https://github.com/hetwik/wikicious/tree/dev/ts/client/scripts/mm"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:market-maker')}
             />
             <NavigationItemLink
-              path="https://github.com/blockworks-foundation"
+              path="https://github.com/wikicious"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:liquidator')}
             />
             <NavigationItemLink
-              path="https://trello.com/b/tIj7K3FD/mango-development"
+              path="https://trello.com/w/wikicious"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:contribute')}
@@ -121,13 +121,13 @@ const MenuPanel = ({
           <div>
             <h4 className="px-4 mb-2">{t('navigation:governance')}</h4>
             <NavigationItemLink
-              path="https://dao.mango.markets"
+              path="https://dao.wikicious.com"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:vote')}
             />
             <NavigationItemLink
-              path="https://forum.mango.markets"
+              path="https://forum.wikicious.com"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:forum')}
@@ -137,14 +137,14 @@ const MenuPanel = ({
             <h4 className="px-4 mb-2">{t('navigation:social')}</h4>
             <NavigationItemLink
               icon={<Twitter className="h-4 w-4 mr-2" />}
-              path="https://twitter.com/mangomarkets"
+              path="https://twitter.com/wikiciousmarket"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:twitter')}
             />
             <NavigationItemLink
               icon={<Discord className="h-4 w-4 mr-2" />}
-              path="https://discord.gg/2uwjsBc5yw"
+              path="https://discord.gg/qGkaRU4fAA"
               onClick={closeOnClick}
               isExternal
               title={t('navigation:discord')}
