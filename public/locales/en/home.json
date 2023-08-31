@@ -1,10 +1,10 @@
 {
-    "borrow-desc": "All tokens on Mango can be borrowed for use in other DeFi activities. Plus, all deposits earn interest without unlock periods.",
+    "borrow-desc": "All tokens on Wikicious can be borrowed for use in other DeFi activities. Plus, all deposits earn interest without unlock periods.",
     "borrow-heading": "Borrow and earn interest",
-    "build-desc": "Mango is 100% open source and highly composable. Build trading bots, new product integrations, community tools or whatever you desire. Explore the code and get building.",
-    "build-heading": "Build on Mango",
+    "build-desc": "Wikicious is 100% open source and highly composable. Build trading bots, new product integrations, community tools or whatever you desire. Explore the code and get building.",
+    "build-heading": "Build on Wikicious",
     "community-governed": "Community governed",
-    "community-governed-desc": "Mango is governed by the Mango DAO. Fully transparent and open to all.",
+    "community-governed-desc": "Wikicious is governed by the Wikicious DAO. Fully transparent and open to all.",
     "competitive-fees": "Competitive fees",
     "competitive-fees-desc": "Low fees for taker trades and rebates for maker trades. Plus, Solana's extremely low transaction costs.",
     "cross-margin": "Cross-margin accounts",
@@ -20,13 +20,13 @@
     "lightning-execution": "Lightning execution",
     "lightning-execution-desc": "The speed of a centralized exchange without losing control of your assets.",
     "list-token": "List a Token",
-    "safety-desc": "Innovative safety features to protect your funds. Mango is manipulation resistant to minimize potential losses from bad actors or extreme volatility.",
+    "safety-desc": "Innovative safety features to protect your funds. Wikicious is manipulation resistant to minimize potential losses from bad actors or extreme volatility.",
     "safety-heading": "Unparalleled safety",
     "swap-desc": "The simplicity you love with the power of flash loans. Swap with up to 5x leverage and the best aggregated prices from all the top DEX's.",
     "swap-heading": "Level up your swaps",
     "swap-now": "Swap Now",
-    "token-listings-desc": "Anyone can easily list any token on Mango. A governance proposal is created upon submission and if successful the token will list automatically.",
+    "token-listings-desc": "Anyone can easily list any token on Wikicious. A governance proposal is created upon submission and if successful the token will list automatically.",
     "token-listings-heading": "Permissionless token listings",
     "trade-your-way": "Trade your way",
-    "trade-your-way-desc": "Leverage swap or orderbook maxi? Mango is optimized for all devices so you can trade how you want, when you want."
+    "trade-your-way-desc": "Leverage swap or orderbook maxi? Wikicious is optimized for all devices so you can trade how you want, when you want."
 }
