@@ -29,13 +29,15 @@ const Footer = () => {
               {t('footer:footer-mission')}
             </p>
             <div className="flex space-x-3">
-              <a
+              <p>Address</p>
+<p>NO 348 ,1 BEGUR ROAD BOMMANAHALLI BANGALORE ,Bangalore,Karnataka,India,560068</p>
+              {/*<a
                 className="text-th-fgd-4 opacity-60 text-sm whitespace-nowrap"
                 href="https://docs.wikicious.com/legal/terms-of-use"
                 rel="noopener noreferrer"
               >
                 {t('footer:terms-of-service')}
-              </a>
+  </a>*/}
               {/* <div className="border-r border-th-bkg-4" />
               <a
                 className="text-th-fgd-4 opacity-60 text-sm whitespace-nowrap"
