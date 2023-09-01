@@ -18,10 +18,10 @@ const Footer = () => {
                 <img
                   className={`h-10 w-10 flex-shrink-0`}
                   src="/logos/logo-mark.svg"
-                  alt="Mango"
+                  alt="Wikicious"
                 />
                 <span className="ml-2 font-display text-2xl text-th-fgd-1">
-                  Mango
+                  Wikicious
                 </span>
               </div>
             </Link>
