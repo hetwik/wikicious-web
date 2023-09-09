@@ -29,8 +29,7 @@ const Footer = () => {
               {t('footer:footer-mission')}
             </p>
             <div className="flex space-x-3">
-              <p>Address</p>
-<p>NO 348 ,1 BEGUR ROAD BOMMANAHALLI, BANGALORE , Karnataka, India, 560068</p>
+              
               {/*<a
                 className="text-th-fgd-4 opacity-60 text-sm whitespace-nowrap"
                 href="https://docs.wikicious.com/legal/terms-of-use"
