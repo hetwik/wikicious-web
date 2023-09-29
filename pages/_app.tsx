@@ -4,7 +4,7 @@ import '../styles/index.css'
 import LayoutWrapper from '../components/layout/LayoutWrapper'
 import { appWithTranslation } from 'next-i18next'
 
-const metaTitle = 'Wikicious: Buy Bitcoin & Crypto | Decentralized Crypto Exchange, Trading, App & Wallet'
+const metaTitle = 'Wikicious: Buy Bitcoin & Crypto | Decentralized Crypto Exchange'
 const metaDescription =
   'Buy & Trade - BTC, ETH, XRP and more on Wikicious, a global leading decentralized crypto exchange. Dive into the world of Web3, invest in DeFi, and embrace NFTs. Register today to shape the future of finance!'
 const keywords =
@@ -14,7 +14,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Wikicious: Buy Bitcoin & Crypto | Decentralized Crypto Exchange, Trading, App & Wallet</title>
+        <title>Wikicious: Buy Bitcoin & Crypto | Decentralized Crypto Exchange</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
