@@ -164,7 +164,8 @@ const HomePage = () => {
       <SectionWrapper className="overflow-hidden h-[760px] lg:h-auto">
         <div className="grid grid-cols-12" ref={topSection}>
           <div className="col-span-12 lg:col-span-5 mb-12 lg:mb-0 relative z-10">
-            <h1 className="mb-6 text-center lg:text-left">
+            {/* <h1 className="mb-6 text-center lg:text-left"> */}
+            <h1 className="mb-6text-4xl md:text-6xl lg:text-7xl text-center lg:text-left">
               {t('home:home-heading')}
             </h1>
             <p className="intro-p mb-10 text-center lg:text-left">
@@ -375,6 +376,8 @@ const HomePage = () => {
           </div>
         </div>
       </SectionWrapper>
+
+      {/*
       <div className="bg-[url('/images/new/cube-bg.png')] bg-repeat">
         <SectionWrapper className="relative overflow-hidden">
           <div className="absolute -bottom-40 left-1/2 -translate-x-1/2 bg-gradient-to-tl shadow-xl from-th-bkg-1 to-th-bkg-2 h-[600px] w-[600px] md:h-[800px] md:w-[800px] rounded-full" />
@@ -408,6 +411,8 @@ const HomePage = () => {
           </div>
         </SectionWrapper>
       </div>
+
+      */}
     </>
   )
 }
