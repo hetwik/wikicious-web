@@ -165,7 +165,7 @@ const HomePage = () => {
         <div className="grid grid-cols-12" ref={topSection}>
           <div className="col-span-12 lg:col-span-5 mb-12 lg:mb-0 relative z-10">
             {/* <h1 className="mb-6 text-center lg:text-left"> */}
-            <h1 className="mb-6text-4xl md:text-6xl lg:text-7xl text-center lg:text-left">
+            <h1 className="mb-6 text-4xl md:text-6xl lg:text-7xl text-center lg:text-left">
               {t('home:home-heading')}
             </h1>
             <p className="intro-p mb-10 text-center lg:text-left">
