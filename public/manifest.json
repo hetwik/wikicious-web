@@ -4,18 +4,18 @@
   "description": "Wikiciousango Markets - Decentralized, cross-margin trading up to 10x leverage with lightning speed and near-zero fees",
   "icons": [
     {
-      "src": "192x192.png",
+      "src": "logos/192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "512x512.png",
+      "src": "logos/512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
