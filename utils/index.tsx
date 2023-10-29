@@ -1,3 +1,5 @@
+import { BsGlobe } from 'react-icons/bs'
+
 export const formatNumericValue = (
   value: number | string,
   decimals?: number
@@ -89,3 +91,7 @@ const usdFormatter3Sig = Intl.NumberFormat('en', {
   style: 'currency',
   currency: 'USD',
 })
+
+export const WikiciousLogo = () => {
+  return <BsGlobe color="white" className="h-9 w-9 flex-shrink-0" size={25} />
+}
