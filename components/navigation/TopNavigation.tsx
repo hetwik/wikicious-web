@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import DesktopNavigation from './DesktopNavigation'
 import MobileNavigation from './MobileNavigation'
-
-import { BsGlobe } from 'react-icons/bs'
+import { WikiciousLogo } from '../../utils'
 
 const TopNavigation = () => {
   return (
@@ -17,11 +16,7 @@ const TopNavigation = () => {
               alt="wikicious"
             />
             */}
-            <BsGlobe
-              color="white"
-              className="h-9 w-9 flex-shrink-0"
-              size={25}
-            />
+            <WikiciousLogo />
             <span className="hidden md:block ml-2 font-display text-2xl text-th-fgd-1">
               Wikicious
             </span>

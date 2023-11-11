@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ReactNode } from 'react'
 import Twitter from '../icons/Twitter'
 import Discord from '../icons/Discord'
+import { WikiciousLogo } from '../../utils'
 
 const Footer = () => {
   const { t } = useTranslation(['footer', 'navigation'])
@@ -15,11 +16,7 @@ const Footer = () => {
           <div className="w-full lg:w-1/3 flex flex-col items-center lg:items-start lg:pr-6">
             <Link href="/" shallow>
               <div className="flex flex-shrink-0 cursor-pointer items-center">
-                <img
-                  className={`h-10 w-10 flex-shrink-0`}
-                  src="/logos/logo-mark.svg"
-                  alt="Wikicious"
-                />
+                <WikiciousLogo />
                 <span className="ml-2 font-display text-2xl text-th-fgd-1">
                   Wikicious
                 </span>
@@ -29,7 +26,6 @@ const Footer = () => {
               {t('footer:footer-mission')}
             </p>
             <div className="flex space-x-3">
-              
               {/*<a
                 className="text-th-fgd-4 opacity-60 text-sm whitespace-nowrap"
                 href="https://docs.wikicious.com/legal/terms-of-use"
